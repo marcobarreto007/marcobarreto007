@@ -21,21 +21,18 @@ into a model is not reachable in that model's coordinate space.
 
 ## Active Systems
 
-| Project | Description | Stack |
+| System | Description | Stack |
 |---|---|---|
-| **MIKE** | Local AI assistant. Qwen3.6-35B-A3B via llama.cpp. 186 tools, 54 skills, 18 MCP servers. | FastAPI, llama.cpp, Mem0, LightRAG |
-| **VeriBay** | Evidence-guided automotive diagnostics. Bilingual EN/FR. 50-entry KB, RAG + OCR + vision. | FastAPI, PostgreSQL, DuckDB, llama.cpp |
-
----
+| [MIKE](https://github.com/marcobarreto007/mike) | Local AI assistant. Qwen3.6-35B-A3B via llama.cpp. 186 tools, 54 skills, 18 MCP servers. | FastAPI, llama.cpp, Mem0, LightRAG |
+| [VeriBay](https://github.com/marcobarreto007/veribay) | Evidence-guided automotive diagnostics. Bilingual EN/FR. 25 HTTP routes, 50-entry KB. | FastAPI, PostgreSQL, DuckDB, RAG, OCR |
 
 ## Repositories
 
 | Repository | Description |
 |---|---|
-| [nelsonmath](https://github.com/marcobarreto007/nelsonmath) | Multi-strategy math reasoning pipeline. Candidate generation, bayesian scoring, adversarial critique, Wolfram verification. |
-| [f51-labs](https://github.com/marcobarreto007/f51-labs) | Game generation pipeline. LangGraph multi-node: brain (planning), artist (ComfyUI + FLUX), coder (Pygame CE), runner. |
-
----
+| [F51-Darwin-SSD](https://github.com/marcobarreto007/F51-Darwin-SSD) | Cryptographic neuron catalog, ROME/MEMIT editing, hash-verified rollback. |
+| [nelsonmath](https://github.com/marcobarreto007/nelsonmath) | Multi-strategy math reasoning. Bayesian scoring, adversarial critique, Wolfram. |
+| [f51-labs](https://github.com/marcobarreto007/f51-labs) | Game generation pipeline. LangGraph multi-node: brain, artist, coder, runner. |
 
 ## Technical Principles
 
