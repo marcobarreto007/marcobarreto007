@@ -16,35 +16,34 @@ Published 2026-07-31 — Zenodo · DOI [`10.5281/zenodo.21726235`](https://doi.o
 Three integrity gates for ML systems that refuse to emit when checks fail,
 validated on 1.7B-parameter models. Key finding: information transferred
 into a model is not reachable in that model's coordinate space.
-Reproducible from companion repository.
 
 ---
 
-## Active Projects
+## Active Systems
 
 | Project | Description | Stack |
 |---|---|---|
-| **MIKE** | Local AI assistant. Qwen3.6-35B-A3B GGUF via llama.cpp. 186 tools, 54 skills, 18 MCP servers. | FastAPI, llama.cpp, Mem0, LightRAG |
-| **VeriBay** | Evidence-guided automotive diagnostics. Bilingual EN/FR. 25 HTTP routes, 50-entry KB, RAG + OCR + vision. | FastAPI, PostgreSQL, DuckDB, llama-cpp-python |
+| **MIKE** | Local AI assistant. Qwen3.6-35B-A3B via llama.cpp. 186 tools, 54 skills, 18 MCP servers. | FastAPI, llama.cpp, Mem0, LightRAG |
+| **VeriBay** | Evidence-guided automotive diagnostics. Bilingual EN/FR. 50-entry KB, RAG + OCR + vision. | FastAPI, PostgreSQL, DuckDB, llama.cpp |
 
 ---
 
-## Working On
+## Repositories
 
-| Project | Description | Stack |
-|---|---|---|
-| **f51-labs** | Game generation R&D. Multi-node pipeline: brain, artist, coder, runner. | LangGraph, ChromaDB, Pygame CE |
-| **nelsonmath** | Multi-strategy math reasoning. Candidate scoring, adversarial checking, diversity paths. | PyTorch, SymPy, exllamav2, llama-cpp-python |
+| Repository | Description |
+|---|---|
+| [nelsonmath](https://github.com/marcobarreto007/nelsonmath) | Multi-strategy math reasoning pipeline. Candidate generation, bayesian scoring, adversarial critique, Wolfram verification. |
+| [f51-labs](https://github.com/marcobarreto007/f51-labs) | Game generation R&D. Multi-node pipeline: brain, artist, coder, runner. |
 
 ---
 
 ## Technical Principles
 
-- Local-first. No model leaves local hardware.
-- Deterministic verification. Hash-based cataloging, deterministic tests, exact rollback.
-- Consumer hardware. RTX 2070, 8 GB VRAM. If it cannot run here, the architecture is wrong.
-- llama.cpp, not Ollama. Full control over quantization, context, GPU offload.
-- Refuse, don't report. Integrity gates block emission, not annotate it.
+- **Local-first.** No model leaves local hardware.
+- **Deterministic verification.** Hash-based cataloging, exact rollback.
+- **Consumer hardware.** RTX 2070, 8 GB VRAM.
+- **llama.cpp, not Ollama.** Full control over quantization and GPU offload.
+- **Refuse, don't report.** Integrity gates block emission, not annotate it.
 
 ---
 
