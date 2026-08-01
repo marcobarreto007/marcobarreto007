@@ -24,7 +24,7 @@ into a model is not reachable in that model's coordinate space.
 | System | Description | Stack |
 |---|---|---|
 | [MIKE](https://github.com/marcobarreto007/mike) | Local AI assistant. Qwen3.6-35B-A3B via llama.cpp. 186 tools, 54 skills, 18 MCP servers. | FastAPI, llama.cpp, Mem0, LightRAG |
-| [VeriBay](https://github.com/marcobarreto007/veribay) | Evidence-guided automotive diagnostics. Bilingual EN/FR. 25 HTTP routes, 50-entry KB. | FastAPI, PostgreSQL, DuckDB, RAG, OCR |
+| [Épreuve](https://github.com/marcobarreto007/Épreuve) | Evidence-guided automotive diagnostics. Bilingual EN/FR. 25 HTTP routes, 50-entry KB. | FastAPI, PostgreSQL, DuckDB, RAG, OCR |
 
 ## Repositories
 
