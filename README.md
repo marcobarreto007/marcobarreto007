@@ -33,7 +33,7 @@ into a model is not reachable in that model's coordinate space.
 | Repository | Description |
 |---|---|
 | [nelsonmath](https://github.com/marcobarreto007/nelsonmath) | Multi-strategy math reasoning pipeline. Candidate generation, bayesian scoring, adversarial critique, Wolfram verification. |
-| [f51-labs](https://github.com/marcobarreto007/f51-labs) | Game generation R&D. Multi-node pipeline: brain, artist, coder, runner. |
+| [f51-labs](https://github.com/marcobarreto007/f51-labs) | Game generation pipeline. LangGraph multi-node: brain (planning), artist (ComfyUI + FLUX), coder (Pygame CE), runner. |
 
 ---
 
