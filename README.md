@@ -1,20 +1,30 @@
-Independent researcher working on verification, provenance, and correctness
-for machine learning systems. All experiments run locally on consumer hardware.
+# Marco Barreto
 
-My work focuses on two areas:
+**Independent Researcher, F51 Darwin-X Laboratory, Montreal**
 
-**Integrity gates for self-modifying ML systems** — mechanisms that refuse to
-emit an artifact when a check fails rather than detecting anomalies after the fact.
-Published "Refuse, Don't Report: Three Integrity Gates for Self-Modifying ML Systems"
-(Zenodo, July 2026). Validated on 1.7B-parameter models with fully reproducible benchmarks.
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4477--6863-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4477-6863)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21726235-blue?style=flat)](https://doi.org/10.5281/zenodo.21726235)
 
-**Prefix state reuse in hybrid architectures** — a correctness-first measurement
-of caching in Selective-State-Space + attention models. Identified a silent bug in
-PyTorch's causal masking that discards cached prefixes without warning. Measured
-speedup of 4.3x to 18x at 517M parameters under a parity gate with negative control.
+---
 
-I also build local AI systems: a household assistant running Qwen 35B via llama.cpp
-with 186 tools and 54 skills on 8 GB of VRAM, and an evidence-guided automotive
-diagnostic platform combining FastAPI, PostgreSQL, DuckDB, and RAG.
+## Research
 
-I work in English, French, and Brazilian Portuguese. Based in Montreal.
+**Refuse, Don't Report: Three Integrity Gates for Self-Modifying ML Systems**
+Published 2026-07-31 — Zenodo · DOI [`10.5281/zenodo.21726235`](https://doi.org/10.5281/zenodo.21726235) · CC-BY-4.0
+
+**Correctness-Gated Measurement of Prefix State Reuse in Hybrid SSD/Attention Models**
+Technical report, August 2026 — [`F51-Darwin-SSD`](https://github.com/marcobarreto007/F51-Darwin-SSD)
+
+---
+
+## Projects
+
+| Project | Description |
+|---|---|
+| [F51-Darwin-SSD](https://github.com/marcobarreto007/F51-Darwin-SSD) | Hybrid SSD/Attention model. Parity-gated benchmarks. Cryptographic neuron catalog. |
+| [F51 Arcade Factory](https://github.com/marcobarreto007/f51-labs) | Local-first arcade game generation. Brain + ComfyUI + Asset Studio + Arcade Demo. |
+| [nelsonmath](https://github.com/marcobarreto007/nelsonmath) | Multi-strategy math reasoning. Bayesian scoring, adversarial critique, Wolfram. |
+
+---
+
+F51 Darwin-X Laboratory — Montreal, QC
